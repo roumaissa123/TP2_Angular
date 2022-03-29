@@ -1,0 +1,25 @@
+<div class ="container_fluid">
+  <div class="card-body">
+    <br>
+    <h4 class="card-title">{{Name}}</h4>
+    <h4 class="a"><b>Données de device : </b></h4>
+  
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"><b>Numéro de serie :</b> {{NumeroSerie}}</li>
+  <li class="list-group-item"><b>Température :</b> {{temperature}}</li>
+  <li class="list-group-item"><b>Préssion :</b> {{pression}}</li>
+  <li class="list-group-item"><b>Humidity :</b> {{humidity}}</li>
+</ul>
+<h4><b>Données de Batterie de Device :</b></h4>
+<ul>
+  <li class="list-group-item"><b>Health:</b> {{ ba}}</li> 
+  <li class="list-group-item"><b>La charge de Batterie:</b> {{ ca}}</li>
+  <li class="list-group-item"><b>Valeur de Batterie :</b>{{ batteryValeur}} </li>
+  <li class="list-group-item"><b>Pourcentage de Batterie :</b> {{ batteryPercent}}</li>
+  <br>    <br>
+  <p></p>
+</ul>
+ </div> 
+</div>
+
+<router-outlet></router-outlet>
